@@ -2,5 +2,5 @@
 // lorsque tu cliques sur un bouton.
 $("#changeText").bind("click", function(){
     let modif = prompt('Veuilliez écrire ici votre nouveau mot');
-    $("#content").html(modif);
+    $("#content").text(modif);
 })
